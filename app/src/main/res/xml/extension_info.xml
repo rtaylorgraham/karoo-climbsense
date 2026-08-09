@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionInfo
+    id="climbsense"
+    displayName="@string/extension_name"
+    icon="@drawable/ic_climbsense"
+    scansDevices="false"
+    mapLayer="true"
+    fitFile="false">
+    <DataType
+        typeId="grade-remain"
+        displayName="@string/grade_remain_name"
+        description="@string/grade_remain_desc"
+        graphical="false"
+        icon="@drawable/ic_climbsense" />
+    <DataType
+        typeId="max-ahead"
+        displayName="@string/max_ahead_name"
+        description="@string/max_ahead_desc"
+        graphical="false"
+        icon="@drawable/ic_climbsense" />
+    <DataType
+        typeId="next-500"
+        displayName="@string/next_500_name"
+        description="@string/next_500_desc"
+        graphical="false"
+        icon="@drawable/ic_climbsense" />
+    <DataType
+        typeId="climb-power"
+        displayName="@string/climb_power_name"
+        description="@string/climb_power_desc"
+        graphical="false"
+        icon="@drawable/ic_climbsense" />
+    <DataType
+        typeId="next-climb"
+        displayName="@string/next_climb_name"
+        description="@string/next_climb_desc"
+        graphical="true"
+        icon="@drawable/ic_climbsense" />
+    <DataType
+        typeId="climb-list"
+        displayName="@string/climb_list_name"
+        description="@string/climb_list_desc"
+        graphical="true"
+        icon="@drawable/ic_climbsense" />
+</ExtensionInfo>

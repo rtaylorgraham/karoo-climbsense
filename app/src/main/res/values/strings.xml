@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ClimbSense</string>
+    <string name="extension_name">ClimbSense</string>
+    <string name="grade_remain_name">Grade Remain</string>
+    <string name="grade_remain_desc">Average gradient of the remaining part of the current climb</string>
+    <string name="max_ahead_name">Max Ahead</string>
+    <string name="max_ahead_desc">Steepest 100 m pitch remaining in the current climb</string>
+    <string name="next_500_name">Next 500m</string>
+    <string name="next_500_desc">Average gradient of the next 500 m of the route</string>
+    <string name="climb_power_name">Climb Power</string>
+    <string name="climb_power_desc">Average power since the start of the current climb</string>
+    <string name="next_climb_name">Next Climb</string>
+    <string name="next_climb_desc">Preview of the next climb, or live status while climbing</string>
+    <string name="climb_list_name">Climb List</string>
+    <string name="climb_list_desc">All climbs on the route with live progress — best on a full-page layout</string>
+</resources>
