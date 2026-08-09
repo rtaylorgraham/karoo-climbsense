@@ -7,13 +7,21 @@ A [Karoo extension](https://www.hammerhead.io/pages/developer-platform) that clo
 the gap with Garmin's ClimbPro: the climb metrics the native Climber doesn't show,
 a climb list you can actually see mid-climb, and a map painted by gradient.
 
+- **Gradient map overlay** — the route painted by steepness on the native map, descents in blue, climb start & summit markers
+- **Grade Remain** — average gradient from your wheel to the top of the current climb (ClimbPro's "Grad Remain")
+- **Max Ahead** — steepest ~100 m pitch still remaining in the climb
+- **Next 500m** — average gradient of the next 500 m of route, any terrain
+- **Climb Power** — your average power since the climb started
+- **Next Climb tile** — graphical preview of the coming climb, flips to live on-climb status at the base
+- **Climb List page** — every climb on the route with live states and mini profiles, readable mid-climb
+
 > **Beta.** ClimbSense is in open beta - everything below works and has been
 > validated on a Karoo 3 with simulated and real rides, but so far on one
 > device and one rider's routes. Bug reports, field ideas, and feature requests
 > are very welcome:
 > [open an issue](https://github.com/rtaylorgraham/karoo-climbsense/issues).
 
-## Features
+## In detail
 
 <table>
 <tr>
@@ -79,9 +87,9 @@ until the next one.
 </tr>
 </table>
 
-**Also included:** **Max Ahead** (steepest ~100 m pitch still remaining in the
-current climb) and **Next 500m** (average gradient of the next 500 m on any
-terrain, negative on descents) as plain numeric fields.
+**Max Ahead** and **Next 500m** are plain numeric fields — they borrow the
+native gradient formatting and need no screenshot to explain: one number,
+updated every second (Next 500m goes negative on descents).
 
 ## Install
 
